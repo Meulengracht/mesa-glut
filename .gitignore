@@ -22,7 +22,5 @@ aclocal.m4
 config.log
 config.status
 cscope*
-.scon*
-config.py
 build
 .dir-locals.el
