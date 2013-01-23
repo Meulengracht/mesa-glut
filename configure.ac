@@ -17,7 +17,7 @@ AC_PATH_PROG([MKDEP], [makedepend])
 AC_PATH_PROG([SED], [sed])
 
 if test "x$MKDEP" = "x"; then
-    AC_MSG_ERROR([makedepend is required to build Mesa])
+    AC_MSG_ERROR([makedepend is required to build GLUT])
 fi
 
 dnl Our fallback install-sh is a symlink to minstall. Use the existing
@@ -452,5 +452,5 @@ echo ""
 echo "        PYTHON2:         $PYTHON2"
 
 echo ""
-echo "        Run '${MAKE-make}' to build Mesa"
+echo "        Run '${MAKE-make}' to build GLUT"
 echo ""
